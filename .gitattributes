@@ -1,0 +1,4 @@
+# Byte-exact checkout: this release ships per-file SHA-256 (CHECKSUMS.sha256)
+# and 44 of its files contain CRLF, so git must not perform end-of-line
+# conversion on add or checkout, on any platform.
+* -text

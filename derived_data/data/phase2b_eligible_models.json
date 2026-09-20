@@ -1,0 +1,246 @@
+{
+  "section": "2/4/5/6 INPUT PROVENANCE + MISSINGNESS PREFLIGHT",
+  "scaffold": "terminus-2",
+  "dataset_revision": "04e8940f5b6736a7ce8d22224fe2f2af74163ed2",
+  "earlyeval_commit": "7fd1a8e5b755e1f7ab642bcae77473b53e2bf1d0",
+  "all_rows_seen_in_dataset": 52104,
+  "terminus2_rows": 17431,
+  "terminus2_raw_target_models": 32,
+  "terminus2_usable_trajectories": 15941,
+  "terminus2_usable_unique_tasks": 89,
+  "primary_eligible_models": 29,
+  "missingness_ineligible_models": 3,
+  "minimum_model_gate": 12,
+  "stopped_before_training": false,
+  "STATUS": "PROCEED_TO_TRAINING",
+  "eligibility_rule": {
+    "usable_trajectories>=": 100,
+    "successes_usable>=": 20,
+    "failures_usable>=": 20,
+    "usable_fraction>=": 0.6,
+    "MISSINGNESS_GAP<=": 0.2,
+    "note": "thresholds frozen before training; not relaxed after inspecting calibration results"
+  },
+  "phase2a_usable_count_cross_check": {
+    "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8@together_ai": {
+      "phase2b_usable": 928,
+      "phase2a_usable": 928,
+      "match": true
+    },
+    "accounts/fireworks/models/glm-4p6@fireworks_ai": {
+      "phase2b_usable": 904,
+      "phase2a_usable": 904,
+      "match": true
+    },
+    "accounts/fireworks/models/minimax-m2@fireworks_ai": {
+      "phase2b_usable": 902,
+      "phase2a_usable": 902,
+      "match": true
+    },
+    "claude-haiku-4-5-20251001@anthropic": {
+      "phase2b_usable": 439,
+      "phase2a_usable": 439,
+      "match": true
+    },
+    "claude-opus-4-1-20250805@anthropic": {
+      "phase2b_usable": 441,
+      "phase2a_usable": 441,
+      "match": true
+    },
+    "claude-opus-4-5-20251101@anthropic": {
+      "phase2b_usable": 445,
+      "phase2a_usable": 445,
+      "match": true
+    },
+    "claude-opus-4-6@anthropic": {
+      "phase2b_usable": 445,
+      "phase2a_usable": 445,
+      "match": true
+    },
+    "claude-sonnet-4-5-20250929@anthropic": {
+      "phase2b_usable": 440,
+      "phase2a_usable": 440,
+      "match": true
+    },
+    "deepseek-v3.2@deepseek": {
+      "phase2b_usable": 373,
+      "phase2a_usable": 373,
+      "match": true
+    },
+    "gemini-2.5-flash@gemini": {
+      "phase2b_usable": 438,
+      "phase2a_usable": 438,
+      "match": true
+    },
+    "gemini-2.5-pro@gemini": {
+      "phase2b_usable": 442,
+      "phase2a_usable": 442,
+      "match": true
+    },
+    "gemini-3-flash-preview@gemini": {
+      "phase2b_usable": 444,
+      "phase2a_usable": 444,
+      "match": true
+    },
+    "gemini-3-pro-preview@gemini": {
+      "phase2b_usable": 445,
+      "phase2a_usable": 445,
+      "match": true
+    },
+    "glm-4.7@z-ai": {
+      "phase2b_usable": 0,
+      "phase2a_usable": 0,
+      "match": true
+    },
+    "glm-5@z-ai": {
+      "phase2b_usable": 376,
+      "phase2a_usable": 376,
+      "match": true
+    },
+    "gpt-5-codex@openai": {
+      "phase2b_usable": 437,
+      "phase2a_usable": 437,
+      "match": true
+    },
+    "gpt-5-mini@openai": {
+      "phase2b_usable": 437,
+      "phase2a_usable": 437,
+      "match": true
+    },
+    "gpt-5-nano@openai": {
+      "phase2b_usable": 435,
+      "phase2a_usable": 435,
+      "match": true
+    },
+    "gpt-5.1-codex@openai": {
+      "phase2b_usable": 445,
+      "phase2a_usable": 445,
+      "match": true
+    },
+    "gpt-5.1@openai": {
+      "phase2b_usable": 445,
+      "phase2a_usable": 445,
+      "match": true
+    },
+    "gpt-5.2@openai": {
+      "phase2b_usable": 443,
+      "phase2a_usable": 443,
+      "match": true
+    },
+    "gpt-5.3-codex@openai": {
+      "phase2b_usable": 0,
+      "phase2a_usable": 0,
+      "match": true
+    },
+    "gpt-5@openai": {
+      "phase2b_usable": 436,
+      "phase2a_usable": 436,
+      "match": true
+    },
+    "grok-4-0709@xai": {
+      "phase2b_usable": 436,
+      "phase2a_usable": 436,
+      "match": true
+    },
+    "grok-code-fast-1@xai": {
+      "phase2b_usable": 445,
+      "phase2a_usable": 445,
+      "match": true
+    },
+    "kimi-k2.5@kimi": {
+      "phase2b_usable": 0,
+      "phase2a_usable": 0,
+      "match": true
+    },
+    "minimax-m2.1@openai": {
+      "phase2b_usable": 438,
+      "phase2a_usable": 438,
+      "match": true
+    },
+    "minimax-m2.5@Minimax": {
+      "phase2b_usable": 411,
+      "phase2a_usable": 411,
+      "match": true
+    },
+    "moonshotai/Kimi-K2-Instruct-0905@together_ai": {
+      "phase2b_usable": 923,
+      "phase2a_usable": 923,
+      "match": true
+    },
+    "moonshotai/Kimi-K2-Thinking@together_ai": {
+      "phase2b_usable": 892,
+      "phase2a_usable": 892,
+      "match": true
+    },
+    "openai/gpt-oss-120b@together_ai": {
+      "phase2b_usable": 924,
+      "phase2a_usable": 924,
+      "match": true
+    },
+    "openai/gpt-oss-20b@together_ai": {
+      "phase2b_usable": 932,
+      "phase2a_usable": 932,
+      "match": true
+    }
+  },
+  "phase2a_usable_count_cross_check_all_match": true,
+  "eligible_models": [
+    "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8@together_ai",
+    "accounts/fireworks/models/glm-4p6@fireworks_ai",
+    "accounts/fireworks/models/minimax-m2@fireworks_ai",
+    "claude-haiku-4-5-20251001@anthropic",
+    "claude-opus-4-1-20250805@anthropic",
+    "claude-opus-4-5-20251101@anthropic",
+    "claude-opus-4-6@anthropic",
+    "claude-sonnet-4-5-20250929@anthropic",
+    "deepseek-v3.2@deepseek",
+    "gemini-2.5-flash@gemini",
+    "gemini-2.5-pro@gemini",
+    "gemini-3-flash-preview@gemini",
+    "gemini-3-pro-preview@gemini",
+    "glm-5@z-ai",
+    "gpt-5-codex@openai",
+    "gpt-5-mini@openai",
+    "gpt-5-nano@openai",
+    "gpt-5.1-codex@openai",
+    "gpt-5.1@openai",
+    "gpt-5.2@openai",
+    "gpt-5@openai",
+    "grok-4-0709@xai",
+    "grok-code-fast-1@xai",
+    "minimax-m2.1@openai",
+    "minimax-m2.5@Minimax",
+    "moonshotai/Kimi-K2-Instruct-0905@together_ai",
+    "moonshotai/Kimi-K2-Thinking@together_ai",
+    "openai/gpt-oss-120b@together_ai",
+    "openai/gpt-oss-20b@together_ai"
+  ],
+  "ineligible_detail": [
+    {
+      "model": "glm-4.7@z-ai",
+      "reasons": "USABLE_LT_100|SUCCESS_USABLE_LT_20|FAILURE_USABLE_LT_20|USABLE_FRACTION_LT_0.60",
+      "usable": 0,
+      "usable_fraction": 0.0,
+      "MISSINGNESS_GAP": 0.0
+    },
+    {
+      "model": "gpt-5.3-codex@openai",
+      "reasons": "USABLE_LT_100|SUCCESS_USABLE_LT_20|FAILURE_USABLE_LT_20|USABLE_FRACTION_LT_0.60",
+      "usable": 0,
+      "usable_fraction": 0.0,
+      "MISSINGNESS_GAP": 0.0
+    },
+    {
+      "model": "kimi-k2.5@kimi",
+      "reasons": "USABLE_LT_100|SUCCESS_USABLE_LT_20|FAILURE_USABLE_LT_20|USABLE_FRACTION_LT_0.60",
+      "usable": 0,
+      "usable_fraction": 0.0,
+      "MISSINGNESS_GAP": 0.0
+    }
+  ],
+  "wall_clock_seconds": 2.9,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "cloud_compute": 0,
+  "predictor_training": 0
+}

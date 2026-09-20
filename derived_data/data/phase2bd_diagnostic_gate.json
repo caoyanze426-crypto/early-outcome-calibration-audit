@@ -1,0 +1,145 @@
+{
+  "section": "7/8 DIAGNOSTIC GATE",
+  "definition": {
+    "TARGET_HEAD_LARGE_GAP": "decisions >= 20 AND |point corrected gap| >= 0.08 AND bootstrap 95% CI excludes 0 AND the CI retains the point-estimate sign",
+    "HEAD_DENOMINATOR_ADEQUATE": "eligible targets >= 8",
+    "THRESHOLD_SIGNAL": ">= 3 distinct exact models with TARGET_HEAD_LARGE_GAP in >= 1 head AND >= 2 of them with |corrected gap| >= 0.10 AND >= 2 provider families AND the relevant head has HEAD_DENOMINATOR_ADEQUATE = TRUE",
+    "PHASE2B_D_RESULT": "DENOMINATOR_RESOLVED_SIGNAL iff THRESHOLD_SIGNAL = TRUE at >= 2 of the 3 thresholds; otherwise NO_CROSS_BENCHMARK_REPLICATION"
+  },
+  "relevant_head_readings": {
+    "primary": "every head contributing a robust large gap must be denominator-adequate (used for PHASE2B_D_RESULT)",
+    "variant": "at least one contributing head is adequate (sensitivity only)"
+  },
+  "per_threshold": {
+    "0.900": {
+      "threshold": 0.9,
+      "models_with_robust_large_gap": 3,
+      "of_which_abs_gap_ge_0_10": 2,
+      "provider_families": [
+        "Google/Gemini",
+        "OpenAI"
+      ],
+      "distinct_provider_families": 2,
+      "contributing_heads": [
+        "failure",
+        "success"
+      ],
+      "contributing_head_denominator_adequate": {
+        "failure": true,
+        "success": true
+      },
+      "base_conditions_met": true,
+      "relevant_head_adequate_primary_all_heads": true,
+      "relevant_head_adequate_variant_any_head": true,
+      "THRESHOLD_SIGNAL": true,
+      "THRESHOLD_SIGNAL_variant_any_head": true,
+      "qualifying_models": [
+        {
+          "model_id": "gemini-3-pro-preview@gemini",
+          "provider_family": "Google/Gemini",
+          "heads_with_robust_large_gap": [
+            "failure"
+          ],
+          "max_abs_corrected_gap_among_robust_heads": 0.17827768168167446,
+          "has_abs_gap_ge_0_10": true
+        },
+        {
+          "model_id": "gpt-5-codex@openai",
+          "provider_family": "OpenAI",
+          "heads_with_robust_large_gap": [
+            "failure"
+          ],
+          "max_abs_corrected_gap_among_robust_heads": 0.09498735303267425,
+          "has_abs_gap_ge_0_10": false
+        },
+        {
+          "model_id": "minimax-m2.1@openai",
+          "provider_family": "OpenAI",
+          "heads_with_robust_large_gap": [
+            "success"
+          ],
+          "max_abs_corrected_gap_among_robust_heads": 0.3228374738202061,
+          "has_abs_gap_ge_0_10": true
+        }
+      ]
+    },
+    "0.925": {
+      "threshold": 0.925,
+      "models_with_robust_large_gap": 2,
+      "of_which_abs_gap_ge_0_10": 1,
+      "provider_families": [
+        "Google/Gemini"
+      ],
+      "distinct_provider_families": 1,
+      "contributing_heads": [
+        "failure"
+      ],
+      "contributing_head_denominator_adequate": {
+        "failure": true
+      },
+      "base_conditions_met": false,
+      "relevant_head_adequate_primary_all_heads": true,
+      "relevant_head_adequate_variant_any_head": true,
+      "THRESHOLD_SIGNAL": false,
+      "THRESHOLD_SIGNAL_variant_any_head": false,
+      "qualifying_models": [
+        {
+          "model_id": "gemini-3-flash-preview@gemini",
+          "provider_family": "Google/Gemini",
+          "heads_with_robust_large_gap": [
+            "failure"
+          ],
+          "max_abs_corrected_gap_among_robust_heads": 0.08290848072815071,
+          "has_abs_gap_ge_0_10": false
+        },
+        {
+          "model_id": "gemini-3-pro-preview@gemini",
+          "provider_family": "Google/Gemini",
+          "heads_with_robust_large_gap": [
+            "failure"
+          ],
+          "max_abs_corrected_gap_among_robust_heads": 0.14716412829279357,
+          "has_abs_gap_ge_0_10": true
+        }
+      ]
+    },
+    "0.950": {
+      "threshold": 0.95,
+      "models_with_robust_large_gap": 1,
+      "of_which_abs_gap_ge_0_10": 1,
+      "provider_families": [
+        "Google/Gemini"
+      ],
+      "distinct_provider_families": 1,
+      "contributing_heads": [
+        "failure"
+      ],
+      "contributing_head_denominator_adequate": {
+        "failure": true
+      },
+      "base_conditions_met": false,
+      "relevant_head_adequate_primary_all_heads": true,
+      "relevant_head_adequate_variant_any_head": true,
+      "THRESHOLD_SIGNAL": false,
+      "THRESHOLD_SIGNAL_variant_any_head": false,
+      "qualifying_models": [
+        {
+          "model_id": "gemini-3-pro-preview@gemini",
+          "provider_family": "Google/Gemini",
+          "heads_with_robust_large_gap": [
+            "failure"
+          ],
+          "max_abs_corrected_gap_among_robust_heads": 0.10622394638739696,
+          "has_abs_gap_ge_0_10": true
+        }
+      ]
+    }
+  },
+  "thresholds_with_signal_primary": 1,
+  "thresholds_with_signal_variant": 1,
+  "PHASE2B_D_RESULT": "NO_CROSS_BENCHMARK_REPLICATION",
+  "PHASE2B_D_RESULT_variant_any_head": "NO_CROSS_BENCHMARK_REPLICATION",
+  "PHASE2B_RESULT_frozen": "NO_CROSS_BENCHMARK_SIGNAL",
+  "phase2b_primary_result_modified": false,
+  "note": "mechanical, pre-registered in PROTOCOL.md before any metric was computed; the frozen Phase 2B primary result is unchanged"
+}

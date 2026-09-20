@@ -1,0 +1,2 @@
+model_id,provider_family,head,decisions,correct,empirical_precision,mean_corrected_score,corrected_gap,absolute_corrected_gap,bootstrap_ci_lower,bootstrap_ci_upper,bootstrap_median,bootstrap_n_task_clusters,test_success_prior,train_success_prior,prior_shift
+gemini-3-pro-preview@gemini,Google/Gemini,failure,23,23,1.0,0.893776053612603,-0.10622394638739696,0.10622394638739696,-0.1144352871888212,-0.09863977356316646,-0.10636142382245461,8.0,0.5685393258426966,0.3188940688940689,0.24964525694862771

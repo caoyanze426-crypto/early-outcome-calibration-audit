@@ -1,0 +1,255 @@
+figure,panel,element,source_file,source_value,rendered_value,status
+FIG_S1,A,"signed gap (gemini-3-pro, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.03549391031265259,-0.03549391031265259,MATCH
+FIG_S1,A,"signed gap (claude-4.5-opus-high, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.026843768064216622,-0.026843768064216622,MATCH
+FIG_S1,A,"signed gap (gpt-5.2-codex, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.0088970831462315,-0.0088970831462315,MATCH
+FIG_S1,A,"signed gap (minimax-m2.5-high, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.006801281019906069,-0.006801281019906069,MATCH
+FIG_S1,A,"signed gap (gemini-3-flash-high, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.002621742161837526,-0.002621742161837526,MATCH
+FIG_S1,A,"signed gap (claude-opus-4.6, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.005816074518056991,0.005816074518056991,MATCH
+FIG_S1,A,"signed gap (glm-5-high, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.012320962950432612,0.012320962950432612,MATCH
+FIG_S1,A,"signed gap (gpt-5.2-high, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.012806634773270376,0.012806634773270376,MATCH
+FIG_S1,A,"signed gap (claude-4.5-haiku-high, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.05180813868840539,0.05180813868840539,MATCH
+FIG_S1,A,"signed gap (gpt-5-mini, success)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.1863747736240955,0.1863747736240955,MATCH
+FIG_S1,B,"signed gap (gemini-3-flash-high, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.043506622314453125,-0.043506622314453125,MATCH
+FIG_S1,B,"signed gap (gpt-5.2-codex, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.019873435082642943,-0.019873435082642943,MATCH
+FIG_S1,B,"signed gap (claude-4.5-haiku-high, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.018475093624808592,-0.018475093624808592,MATCH
+FIG_S1,B,"signed gap (gpt-5-mini, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,-0.0015650666677035074,-0.0015650666677035074,MATCH
+FIG_S1,B,"signed gap (gpt-5.2-high, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.03994845216338694,0.03994845216338694,MATCH
+FIG_S1,B,"signed gap (glm-5-high, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.04171158870061242,0.04171158870061242,MATCH
+FIG_S1,B,"signed gap (minimax-m2.5-high, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.06015623227143896,0.06015623227143896,MATCH
+FIG_S1,B,"signed gap (claude-opus-4.6, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.11096491464754432,0.11096491464754432,MATCH
+FIG_S1,B,"signed gap (claude-4.5-opus-high, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.11492401068327862,0.11492401068327862,MATCH
+FIG_S1,B,"signed gap (gemini-3-pro, failure)",outputs\earlyeval_phase0d_cross_agent_calibration\analysis\calibration_gaps.csv,0.9582048058509827,0.9582048058509827,MATCH
+FIG_S1,annotation,success precision range,outputs\earlyeval_phase0d_cross_agent_calibration\PHASE0D_REPORT.md,0.2170,0.2170,MATCH
+FIG_S1,annotation,success precision CI lower,outputs\earlyeval_phase0d_cross_agent_calibration\PHASE0D_REPORT.md,0.1660,0.1660,MATCH
+FIG_S1,annotation,success precision CI upper,outputs\earlyeval_phase0d_cross_agent_calibration\PHASE0D_REPORT.md,0.2709,0.2709,MATCH
+FIG_S1,annotation,failure precision range excluding degenerate fold,outputs\earlyeval_phase0d_cross_agent_calibration\PHASE0D_REPORT.md,0.1475,0.1475,MATCH
+FIG_S1,annotation,failure range CI lower,outputs\earlyeval_phase0d_cross_agent_calibration\PHASE0D_REPORT.md,0.1094,0.1094,MATCH
+FIG_S1,annotation,failure range CI upper,outputs\earlyeval_phase0d_cross_agent_calibration\PHASE0D_REPORT.md,0.2727,0.2727,MATCH
+FIG_S1,annotation,degenerate fold correct failures / decisions,outputs\earlyeval_phase0d_cross_agent_calibration\PHASE0D_REPORT.md,0/25 correct failures,0/25 correct failures,MATCH
+FIG_S2,A,"raw gap (claude-4.5-opus-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.026843768064216622,-0.026843768064216622,MATCH
+FIG_S2,A,"corrected gap (claude-4.5-opus-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.02266529065577849,-0.02266529065577849,MATCH
+FIG_S2,A,"raw gap (gpt-5.2-codex, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.0088970831462315,-0.0088970831462315,MATCH
+FIG_S2,A,"corrected gap (gpt-5.2-codex, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.012765659485714398,-0.012765659485714398,MATCH
+FIG_S2,A,"raw gap (minimax-m2.5-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.006801281019906069,-0.006801281019906069,MATCH
+FIG_S2,A,"corrected gap (minimax-m2.5-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.004317142923320638,-0.004317142923320638,MATCH
+FIG_S2,A,"raw gap (gemini-3-flash-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.002621742161837526,-0.002621742161837526,MATCH
+FIG_S2,A,"corrected gap (gemini-3-flash-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-9.325153971828648e-05,-9.325153971828648e-05,MATCH
+FIG_S2,A,"raw gap (claude-opus-4.6, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.005816074518056991,0.005816074518056991,MATCH
+FIG_S2,A,"corrected gap (claude-opus-4.6, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.010322126586370994,0.010322126586370994,MATCH
+FIG_S2,A,"raw gap (glm-5-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.012320962950432612,0.012320962950432612,MATCH
+FIG_S2,A,"corrected gap (glm-5-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.008772816450522414,0.008772816450522414,MATCH
+FIG_S2,A,"raw gap (gpt-5.2-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.012806634773270376,0.012806634773270376,MATCH
+FIG_S2,A,"corrected gap (gpt-5.2-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.008756605422880148,0.008756605422880148,MATCH
+FIG_S2,A,"raw gap (claude-4.5-haiku-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.05180813868840539,0.05180813868840539,MATCH
+FIG_S2,A,"corrected gap (claude-4.5-haiku-high, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.03539643386381108,0.03539643386381108,MATCH
+FIG_S2,A,"raw gap (gpt-5-mini, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.1863747736240955,0.1863747736240955,MATCH
+FIG_S2,A,"corrected gap (gpt-5-mini, success)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.14233811033884336,0.14233811033884336,MATCH
+FIG_S2,B,"raw gap (gemini-3-flash-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.043506622314453125,-0.043506622314453125,MATCH
+FIG_S2,B,"corrected gap (gemini-3-flash-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.04722806703534288,-0.04722806703534288,MATCH
+FIG_S2,B,"raw gap (gpt-5.2-codex, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.019873435082642943,-0.019873435082642943,MATCH
+FIG_S2,B,"corrected gap (gpt-5.2-codex, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.015805306908378003,-0.015805306908378003,MATCH
+FIG_S2,B,"raw gap (claude-4.5-haiku-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.018475093624808592,-0.018475093624808592,MATCH
+FIG_S2,B,"corrected gap (claude-4.5-haiku-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.004259220058520641,-0.004259220058520641,MATCH
+FIG_S2,B,"raw gap (gpt-5-mini, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,-0.0015650666677035074,-0.0015650666677035074,MATCH
+FIG_S2,B,"corrected gap (gpt-5-mini, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.02247359084803513,0.02247359084803513,MATCH
+FIG_S2,B,"raw gap (gpt-5.2-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.03994845216338694,0.03994845216338694,MATCH
+FIG_S2,B,"corrected gap (gpt-5.2-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.0439708096776904,0.0439708096776904,MATCH
+FIG_S2,B,"raw gap (glm-5-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.04171158870061242,0.04171158870061242,MATCH
+FIG_S2,B,"corrected gap (glm-5-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.04578261932847538,0.04578261932847538,MATCH
+FIG_S2,B,"raw gap (minimax-m2.5-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.06015623227143896,0.06015623227143896,MATCH
+FIG_S2,B,"corrected gap (minimax-m2.5-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.05732866070230758,0.05732866070230758,MATCH
+FIG_S2,B,"raw gap (claude-opus-4.6, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.11096491464754432,0.11096491464754432,MATCH
+FIG_S2,B,"corrected gap (claude-opus-4.6, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.10534916052471854,0.10534916052471854,MATCH
+FIG_S2,B,"raw gap (claude-4.5-opus-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.11492401068327862,0.11492401068327862,MATCH
+FIG_S2,B,"corrected gap (claude-4.5-opus-high, failure)",outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\corrected_gaps.csv,0.11063216919282925,0.11063216919282925,MATCH
+FIG_S3,A,median pairwise difference (success),outputs\earlyeval_phase1a_same_predictor_transfer\analysis\primary_gate.json,0.018042209495525263,0.018042209495525263,MATCH
+FIG_S3,A,bootstrap CI lower (success),outputs\earlyeval_phase1a_same_predictor_transfer\analysis\primary_gate.json,0.016884658052910777,0.016884658052910777,MATCH
+FIG_S3,A,bootstrap CI upper (success),outputs\earlyeval_phase1a_same_predictor_transfer\analysis\primary_gate.json,0.030140357676879663,0.030140357676879663,MATCH
+FIG_S3,A,"pairwise difference (pair-0001, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.041592884017109366,0.041592884017109366,MATCH
+FIG_S3,A,"pairwise difference (pair-0002, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.03220200086782876,0.03220200086782876,MATCH
+FIG_S3,A,"pairwise difference (pair-0003, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.047065914723770974,0.047065914723770974,MATCH
+FIG_S3,A,"pairwise difference (pair-0004, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.035838209162086465,0.035838209162086465,MATCH
+FIG_S3,A,"pairwise difference (pair-0005, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0396400776034217,0.0396400776034217,MATCH
+FIG_S3,A,"pairwise difference (pair-0006, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.10455470418723811,0.10455470418723811,MATCH
+FIG_S3,A,"pairwise difference (pair-0007, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.029230422579911042,0.029230422579911042,MATCH
+FIG_S3,A,"pairwise difference (pair-0008, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.020081309534750402,0.020081309534750402,MATCH
+FIG_S3,A,"pairwise difference (pair-0009, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.011856981698413871,0.011856981698413871,MATCH
+FIG_S3,A,"pairwise difference (pair-0102, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.03835364942164987,0.03835364942164987,MATCH
+FIG_S3,A,"pairwise difference (pair-0103, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.00947814708203365,0.00947814708203365,MATCH
+FIG_S3,A,"pairwise difference (pair-0104, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.014499624354651686,0.014499624354651686,MATCH
+FIG_S3,A,"pairwise difference (pair-0105, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.008920993136453115,0.008920993136453115,MATCH
+FIG_S3,A,"pairwise difference (pair-0106, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.1394095981900263,0.1394095981900263,MATCH
+FIG_S3,A,"pairwise difference (pair-0107, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.019044161257154357,0.019044161257154357,MATCH
+FIG_S3,A,"pairwise difference (pair-0108, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.03321012760856956,0.03321012760856956,MATCH
+FIG_S3,A,"pairwise difference (pair-0109, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.02132416528135128,0.02132416528135128,MATCH
+FIG_S3,A,"pairwise difference (pair-0203, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.011233333709815163,0.011233333709815163,MATCH
+FIG_S3,A,"pairwise difference (pair-0204, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.01323998963510864,0.01323998963510864,MATCH
+FIG_S3,A,"pairwise difference (pair-0205, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.02322201051751882,0.02322201051751882,MATCH
+FIG_S3,A,"pairwise difference (pair-0206, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.13130447635282116,0.13130447635282116,MATCH
+FIG_S3,A,"pairwise difference (pair-0207, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0302634072218555,0.0302634072218555,MATCH
+FIG_S3,A,"pairwise difference (pair-0208, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0013106202834614056,0.0013106202834614056,MATCH
+FIG_S3,A,"pairwise difference (pair-0209, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.009918432373510755,0.009918432373510755,MATCH
+FIG_S3,A,"pairwise difference (pair-0304, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.008691725245859816,0.008691725245859816,MATCH
+FIG_S3,A,"pairwise difference (pair-0305, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0070791732688622044,0.0070791732688622044,MATCH
+FIG_S3,A,"pairwise difference (pair-0306, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.14434930169580318,0.14434930169580318,MATCH
+FIG_S3,A,"pairwise difference (pair-0307, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.013103547921628267,0.013103547921628267,MATCH
+FIG_S3,A,"pairwise difference (pair-0308, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.007845168460693275,0.007845168460693275,MATCH
+FIG_S3,A,"pairwise difference (pair-0309, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0004540325105311105,0.0004540325105311105,MATCH
+FIG_S3,A,"pairwise difference (pair-0405, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.012937504206557482,0.012937504206557482,MATCH
+FIG_S3,A,"pairwise difference (pair-0406, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.11734626800166015,0.11734626800166015,MATCH
+FIG_S3,A,"pairwise difference (pair-0407, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0024351495077385987,0.0024351495077385987,MATCH
+FIG_S3,A,"pairwise difference (pair-0408, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.007893270320107781,0.007893270320107781,MATCH
+FIG_S3,A,"pairwise difference (pair-0409, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.005505729687066863,0.005505729687066863,MATCH
+FIG_S3,A,"pairwise difference (pair-0506, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.14315971637331526,0.14315971637331526,MATCH
+FIG_S3,A,"pairwise difference (pair-0507, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.012556408940613162,0.012556408940613162,MATCH
+FIG_S3,A,"pairwise difference (pair-0508, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.005343865548249727,0.005343865548249727,MATCH
+FIG_S3,A,"pairwise difference (pair-0509, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.01804220949552504,0.01804220949552504,MATCH
+FIG_S3,A,"pairwise difference (pair-0607, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.16367423863383035,0.16367423863383035,MATCH
+FIG_S3,A,"pairwise difference (pair-0608, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.11867716642042236,0.11867716642042236,MATCH
+FIG_S3,A,"pairwise difference (pair-0609, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.15552736157438884,0.15552736157438884,MATCH
+FIG_S3,A,"pairwise difference (pair-0708, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.014218009478673022,0.014218009478673022,MATCH
+FIG_S3,A,"pairwise difference (pair-0709, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.00900947422905407,0.00900947422905407,MATCH
+FIG_S3,A,"pairwise difference (pair-0809, success)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.01019997892630764,0.01019997892630764,MATCH
+FIG_S3,B,median pairwise difference (failure),outputs\earlyeval_phase1a_same_predictor_transfer\analysis\primary_gate.json,0.03851135966145047,0.03851135966145047,MATCH
+FIG_S3,B,bootstrap CI lower (failure),outputs\earlyeval_phase1a_same_predictor_transfer\analysis\primary_gate.json,0.03181737446762412,0.03181737446762412,MATCH
+FIG_S3,B,bootstrap CI upper (failure),outputs\earlyeval_phase1a_same_predictor_transfer\analysis\primary_gate.json,0.06399701826303028,0.06399701826303028,MATCH
+FIG_S3,B,"pairwise difference (pair-0001, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.07241389985651481,0.07241389985651481,MATCH
+FIG_S3,B,"pairwise difference (pair-0002, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.11398441874072995,0.11398441874072995,MATCH
+FIG_S3,B,"pairwise difference (pair-0004, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.027431113123136397,0.027431113123136397,MATCH
+FIG_S3,B,"pairwise difference (pair-0005, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.01466604448273956,0.01466604448273956,MATCH
+FIG_S3,B,"pairwise difference (pair-0006, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.01773134634422613,0.01773134634422613,MATCH
+FIG_S3,B,"pairwise difference (pair-0007, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.03851135966145025,0.03851135966145025,MATCH
+FIG_S3,B,"pairwise difference (pair-0008, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.00836401441548884,0.00836401441548884,MATCH
+FIG_S3,B,"pairwise difference (pair-0009, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.06933702096207328,0.06933702096207328,MATCH
+FIG_S3,B,"pairwise difference (pair-0102, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.027682529624851737,0.027682529624851737,MATCH
+FIG_S3,B,"pairwise difference (pair-0104, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.02022485243077876,0.02022485243077876,MATCH
+FIG_S3,B,"pairwise difference (pair-0105, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.01642733527364748,0.01642733527364748,MATCH
+FIG_S3,B,"pairwise difference (pair-0106, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.013974192304630373,0.013974192304630373,MATCH
+FIG_S3,B,"pairwise difference (pair-0107, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.02500001602831714,0.02500001602831714,MATCH
+FIG_S3,B,"pairwise difference (pair-0108, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.04191468656125896,0.04191468656125896,MATCH
+FIG_S3,B,"pairwise difference (pair-0109, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.07874474470399373,0.07874474470399373,MATCH
+FIG_S3,B,"pairwise difference (pair-0204, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.08251333253652737,0.08251333253652737,MATCH
+FIG_S3,B,"pairwise difference (pair-0205, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.004270580718121919,0.004270580718121919,MATCH
+FIG_S3,B,"pairwise difference (pair-0206, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.09112834208970333,0.09112834208970333,MATCH
+FIG_S3,B,"pairwise difference (pair-0207, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.15017336834060935,0.15017336834060935,MATCH
+FIG_S3,B,"pairwise difference (pair-0208, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.057997959751811656,0.057997959751811656,MATCH
+FIG_S3,B,"pairwise difference (pair-0209, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.027717635719505918,0.027717635719505918,MATCH
+FIG_S3,B,"pairwise difference (pair-0304, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.05817795555799765,0.05817795555799765,MATCH
+FIG_S3,B,"pairwise difference (pair-0405, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.03157547140954364,0.03157547140954364,MATCH
+FIG_S3,B,"pairwise difference (pair-0406, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0248072618430335,0.0248072618430335,MATCH
+FIG_S3,B,"pairwise difference (pair-0407, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.04399115936677178,0.04399115936677178,MATCH
+FIG_S3,B,"pairwise difference (pair-0408, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.016551009212095846,0.016551009212095846,MATCH
+FIG_S3,B,"pairwise difference (pair-0409, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.018224519926009042,0.018224519926009042,MATCH
+FIG_S3,B,"pairwise difference (pair-0506, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0431920532736455,0.0431920532736455,MATCH
+FIG_S3,B,"pairwise difference (pair-0507, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.09951814363548306,0.09951814363548306,MATCH
+FIG_S3,B,"pairwise difference (pair-0509, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.06485205095074942,0.06485205095074942,MATCH
+FIG_S3,B,"pairwise difference (pair-0607, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.03832439641246976,0.03832439641246976,MATCH
+FIG_S3,B,"pairwise difference (pair-0609, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.04309984713151915,0.04309984713151915,MATCH
+FIG_S3,B,"pairwise difference (pair-0708, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.050000000000000044,0.050000000000000044,MATCH
+FIG_S3,B,"pairwise difference (pair-0709, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.0973583980392485,0.0973583980392485,MATCH
+FIG_S3,B,"pairwise difference (pair-0809, failure)",outputs\earlyeval_phase1a_same_predictor_transfer\analysis\pairwise_metrics.csv,0.02146607100507114,0.02146607100507114,MATCH
+FIG_S4,A,jackknife median omitting pair-0006,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13617040153017057,0.13617040153017057,MATCH
+FIG_S4,A,jackknife median omitting pair-0106,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13872622485067848,0.13872622485067848,MATCH
+FIG_S4,A,jackknife median omitting pair-0206,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13872622485067848,0.13872622485067848,MATCH
+FIG_S4,A,jackknife median omitting pair-0306,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13715039793039946,0.13715039793039946,MATCH
+FIG_S4,A,jackknife median omitting pair-0406,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13872622485067848,0.13872622485067848,MATCH
+FIG_S4,A,jackknife median omitting pair-0506,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13617040153017057,0.13617040153017057,MATCH
+FIG_S4,A,jackknife median omitting pair-0607,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13617040153017057,0.13617040153017057,MATCH
+FIG_S4,A,jackknife median omitting pair-0608,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13872622485067848,0.13872622485067848,MATCH
+FIG_S4,A,jackknife median omitting pair-0609,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.13617040153017057,0.13617040153017057,MATCH
+FIG_S4,A,full-sample baseline median,outputs\earlyeval_phase1a_d_target_persistence\analysis\primary_gate.json,0.1377462284504496,0.1377462284504496,MATCH
+FIG_S4,A,jackknife minimum absolute median,outputs\earlyeval_phase1a_d_target_persistence\analysis\primary_gate.json,0.13617040153017057,0.13617040153017057,MATCH
+FIG_S4,B,jackknife median omitting pair-0002,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11039703482593621,0.11039703482593621,MATCH
+FIG_S4,B,jackknife median omitting pair-0102,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11107776761037536,0.11107776761037536,MATCH
+FIG_S4,B,jackknife median omitting pair-0204,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11107776761037536,0.11107776761037536,MATCH
+FIG_S4,B,jackknife median omitting pair-0205,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11107776761037536,0.11107776761037536,MATCH
+FIG_S4,B,jackknife median omitting pair-0206,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11039703482593621,0.11039703482593621,MATCH
+FIG_S4,B,jackknife median omitting pair-0207,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11107776761037536,0.11107776761037536,MATCH
+FIG_S4,B,jackknife median omitting pair-0208,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11039703482593621,0.11039703482593621,MATCH
+FIG_S4,B,jackknife median omitting pair-0209,outputs\earlyeval_phase1a_d_target_persistence\analysis\partner_jackknife.csv,0.11039703482593621,0.11039703482593621,MATCH
+FIG_S4,B,full-sample baseline median,outputs\earlyeval_phase1a_d_target_persistence\analysis\primary_gate.json,0.11073740121815578,0.11073740121815578,MATCH
+FIG_S4,B,jackknife minimum absolute median,outputs\earlyeval_phase1a_d_target_persistence\analysis\primary_gate.json,0.11039703482593621,0.11039703482593621,MATCH
+FIG_S5,A,decided total (TARGET_1 @ 0.9),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,3140,3140,MATCH
+FIG_S5,A,decided total (TARGET_1 @ 0.925),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,2776,2776,MATCH
+FIG_S5,A,decided total (TARGET_1 @ 0.95),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,2068,2068,MATCH
+FIG_S5,A,decided total (TARGET_1 @ 0.975),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,627,627,MATCH
+FIG_S5,A,decided total (TARGET_2 @ 0.9),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,3035,3035,MATCH
+FIG_S5,A,decided total (TARGET_2 @ 0.925),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,2698,2698,MATCH
+FIG_S5,A,decided total (TARGET_2 @ 0.95),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,2053,2053,MATCH
+FIG_S5,A,decided total (TARGET_2 @ 0.975),outputs\earlyeval_phase1b_threshold_robustness\analysis\secondary_descriptives.csv,609,609,MATCH
+FIG_S5,B,head decisions min (TARGET_1 @ 0.9),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,282,282,MATCH
+FIG_S5,B,head decisions max (TARGET_1 @ 0.9),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,313,313,MATCH
+FIG_S5,B,head decisions min (TARGET_1 @ 0.925),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,248,248,MATCH
+FIG_S5,B,head decisions max (TARGET_1 @ 0.925),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,298,298,MATCH
+FIG_S5,B,head decisions min (TARGET_1 @ 0.95),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,177,177,MATCH
+FIG_S5,B,head decisions max (TARGET_1 @ 0.95),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,269,269,MATCH
+FIG_S5,B,head decisions min (TARGET_1 @ 0.975),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,26,26,MATCH
+FIG_S5,B,head decisions max (TARGET_1 @ 0.975),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,142,142,MATCH
+FIG_S5,B,head decisions min (TARGET_2 @ 0.9),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,60,60,MATCH
+FIG_S5,B,head decisions max (TARGET_2 @ 0.9),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,71,71,MATCH
+FIG_S5,B,head decisions min (TARGET_2 @ 0.925),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,48,48,MATCH
+FIG_S5,B,head decisions max (TARGET_2 @ 0.925),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,58,58,MATCH
+FIG_S5,B,head decisions min (TARGET_2 @ 0.95),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,32,32,MATCH
+FIG_S5,B,head decisions max (TARGET_2 @ 0.95),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,40,40,MATCH
+FIG_S5,B,eligible folds (TARGET_2 @ 0.975),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,0,0,MATCH
+FIG_S5,B,observed head decisions min (TARGET_2 @ 0.975),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,8,8,MATCH
+FIG_S5,B,observed head decisions max (TARGET_2 @ 0.975),outputs\earlyeval_phase1b_threshold_robustness\analysis\target_threshold_summary.csv,16,16,MATCH
+FIG_S6,A,corrected gap (gemini-3-pro-preview@gemini),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.10622394638739696,-0.10622394638739696,MATCH
+FIG_S6,A,robust row CI lower,outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\robust_targets.csv,-0.1144352871888212,-0.1144352871888212,MATCH
+FIG_S6,A,robust row CI upper,outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\robust_targets.csv,-0.09863977356316646,-0.09863977356316646,MATCH
+FIG_S6,A,corrected gap (minimax-m2.5@Minimax),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.05604614418305709,-0.05604614418305709,MATCH
+FIG_S6,A,corrected gap (gpt-5.1-codex@openai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.05384657258551284,-0.05384657258551284,MATCH
+FIG_S6,A,corrected gap (gemini-3-flash-preview@gemini),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.050479055410443174,-0.050479055410443174,MATCH
+FIG_S6,A,corrected gap (glm-5@z-ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.04452661004604519,-0.04452661004604519,MATCH
+FIG_S6,A,corrected gap (minimax-m2.1@openai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.03689665539044462,-0.03689665539044462,MATCH
+FIG_S6,A,corrected gap (deepseek-v3.2@deepseek),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.03554425654632021,-0.03554425654632021,MATCH
+FIG_S6,A,corrected gap (claude-haiku-4-5-20251001@anthropic),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.019550235447191366,-0.019550235447191366,MATCH
+FIG_S6,A,corrected gap (claude-opus-4-1-20250805@anthropic),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.010169411272034523,-0.010169411272034523,MATCH
+FIG_S6,A,corrected gap (moonshotai/Kimi-K2-Thinking@together_ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.009202463199426192,-0.009202463199426192,MATCH
+FIG_S6,A,corrected gap (grok-code-fast-1@xai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.008837345970026167,-0.008837345970026167,MATCH
+FIG_S6,A,corrected gap (accounts/fireworks/models/glm-4p6@fireworks_ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.007961178935176894,-0.007961178935176894,MATCH
+FIG_S6,A,corrected gap (gpt-5-mini@openai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.007813073931643655,-0.007813073931643655,MATCH
+FIG_S6,A,corrected gap (claude-sonnet-4-5-20250929@anthropic),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.0067434662429510794,-0.0067434662429510794,MATCH
+FIG_S6,A,corrected gap (Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8@together_ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.006115563198160534,-0.006115563198160534,MATCH
+FIG_S6,A,corrected gap (moonshotai/Kimi-K2-Instruct-0905@together_ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.002343799815529124,-0.002343799815529124,MATCH
+FIG_S6,A,corrected gap (gemini-2.5-flash@gemini),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.0022746356851878202,-0.0022746356851878202,MATCH
+FIG_S6,A,corrected gap (openai/gpt-oss-20b@together_ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.002187603266963656,-0.002187603266963656,MATCH
+FIG_S6,A,corrected gap (gpt-5@openai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.0020420083338590356,0.0020420083338590356,MATCH
+FIG_S6,A,corrected gap (gpt-5-nano@openai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.0021128913469178334,0.0021128913469178334,MATCH
+FIG_S6,A,corrected gap (openai/gpt-oss-120b@together_ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.005962762278408307,0.005962762278408307,MATCH
+FIG_S6,A,corrected gap (gemini-2.5-pro@gemini),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.008020963457104013,0.008020963457104013,MATCH
+FIG_S6,A,corrected gap (accounts/fireworks/models/minimax-m2@fireworks_ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.02356328144719244,0.02356328144719244,MATCH
+FIG_S6,A,corrected gap (grok-4-0709@xai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.03532419453802349,0.03532419453802349,MATCH
+FIG_S6,A,corrected gap (claude-opus-4-5-20251101@anthropic),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.061238347091914114,0.061238347091914114,MATCH
+FIG_S6,A,corrected gap (claude-opus-4-6@anthropic),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.06196691311203151,0.06196691311203151,MATCH
+FIG_S6,A,corrected gap (gpt-5-codex@openai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,0.07690431155816857,0.07690431155816857,MATCH
+FIG_S6,A,median |gap|,outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\target_signal.json,0.010169411272034523,0.010169411272034523,MATCH
+FIG_S6,A,max |gap|,outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\target_signal.json,0.10622394638739696,0.10622394638739696,MATCH
+FIG_S6,A,residual gap range,outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\target_signal.json,0.18312825794556553,0.18312825794556553,MATCH
+FIG_S6,A,eligible targets,outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\target_signal.json,27,27,MATCH
+FIG_S6,B,corrected gap (glm-5@z-ai),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\per_target_metrics.csv,-0.015356558060857672,-0.015356558060857672,MATCH
+FIG_S6,B,median |gap| (success),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\target_signal.json,0.015356558060857672,0.015356558060857672,MATCH
+FIG_S6,B,max |gap| (success),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\target_signal.json,0.015356558060857672,0.015356558060857672,MATCH
+FIG_S6,B,eligible targets (success),outputs\earlyeval_phase2b_terminalbench_fixed_scaffold\analysis\target_signal.json,1,1,MATCH
+FIG_S7,A,robust targets success (0.9),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\denominator_summary.csv,1,1,MATCH
+FIG_S7,A,robust targets failure (0.9),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\denominator_summary.csv,2,2,MATCH
+FIG_S7,A,robust targets success (0.925),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\denominator_summary.csv,0,0,MATCH
+FIG_S7,A,robust targets failure (0.925),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\denominator_summary.csv,2,2,MATCH
+FIG_S7,A,robust targets success (0.95),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\denominator_summary.csv,0,0,MATCH
+FIG_S7,A,robust targets failure (0.95),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\denominator_summary.csv,1,1,MATCH
+FIG_S7,B,max |gap| qualifying model (gemini-3-pro-preview@gemini @ 0.900),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,0.17827768168167446,0.17827768168167446,MATCH
+FIG_S7,B,provider family (gemini-3-pro-preview@gemini @ 0.900),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,Google/Gemini,Google/Gemini,MATCH
+FIG_S7,B,max |gap| qualifying model (gpt-5-codex@openai @ 0.900),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,0.09498735303267425,0.09498735303267425,MATCH
+FIG_S7,B,provider family (gpt-5-codex@openai @ 0.900),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,OpenAI,OpenAI,MATCH
+FIG_S7,B,max |gap| qualifying model (minimax-m2.1@openai @ 0.900),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,0.3228374738202061,0.3228374738202061,MATCH
+FIG_S7,B,provider family (minimax-m2.1@openai @ 0.900),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,OpenAI,OpenAI,MATCH
+FIG_S7,B,max |gap| qualifying model (gemini-3-flash-preview@gemini @ 0.925),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,0.08290848072815071,0.08290848072815071,MATCH
+FIG_S7,B,provider family (gemini-3-flash-preview@gemini @ 0.925),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,Google/Gemini,Google/Gemini,MATCH
+FIG_S7,B,max |gap| qualifying model (gemini-3-pro-preview@gemini @ 0.925),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,0.14716412829279357,0.14716412829279357,MATCH
+FIG_S7,B,provider family (gemini-3-pro-preview@gemini @ 0.925),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,Google/Gemini,Google/Gemini,MATCH
+FIG_S7,B,max |gap| qualifying model (gemini-3-pro-preview@gemini @ 0.950),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,0.10622394638739696,0.10622394638739696,MATCH
+FIG_S7,B,provider family (gemini-3-pro-preview@gemini @ 0.950),outputs\earlyeval_phase2b_d_threshold_diagnostic\analysis\diagnostic_gate.json,Google/Gemini,Google/Gemini,MATCH
+FIG_S2,A,raw range (success),outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\residual_gap_range.json,0.2132185416883121,0.2132185416883121,MATCH
+FIG_S2,A,residual range (success),outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\residual_gap_range.json,0.16500340099462185,0.16500340099462185,MATCH
+FIG_S2,B,raw range (failure),outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\residual_gap_range.json,0.15843063299773175,0.15843063299773175,MATCH
+FIG_S2,B,residual range (failure),outputs\earlyeval_phase0e_prior_shift_decomposition\analysis\residual_gap_range.json,0.15786023622817213,0.15786023622817213,MATCH

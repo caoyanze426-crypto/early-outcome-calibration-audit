@@ -1,0 +1,7 @@
+threshold,head,eligible_targets,total_decisions,median_decisions_per_eligible_target,min_decisions,max_decisions,robust_targets,head_denominator_adequate
+0.9,success,11,339,26.0,22,51,1,True
+0.9,failure,29,4905,119.0,38,487,2,True
+0.925,success,3,108,34.0,32,42,0,False
+0.925,failure,29,4383,105.0,26,452,2,True
+0.95,success,1,20,20.0,20,20,0,False
+0.95,failure,27,3641,91.0,23,396,1,True

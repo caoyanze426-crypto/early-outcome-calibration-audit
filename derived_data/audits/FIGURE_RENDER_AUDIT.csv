@@ -1,0 +1,109 @@
+figure,panel,element,source_file,source_value,rendered_value,status
+Figure 1,A,panel A schematic (no numeric results plotted),outputs/paper2_w2_visual_architecture/data/(none),n/a (conceptual),n/a,CONCEPTUAL_NO_NUMERIC
+Figure 1,B,panel B schematic (no numeric results plotted),outputs/paper2_w2_visual_architecture/data/(none),n/a (conceptual),n/a,CONCEPTUAL_NO_NUMERIC
+Figure 1,C,panel C schematic (no numeric results plotted),outputs/paper2_w2_visual_architecture/data/(none),n/a (conceptual),n/a,CONCEPTUAL_NO_NUMERIC
+Figure 2,A,raw gap (gemini-3-pro),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.03549391031265259,-0.03549391031265259,MATCH
+Figure 2,A,corrected gap (gemini-3-pro),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.0,0.0,MATCH
+Figure 2,A,raw gap (claude-4.5-opus-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.026843768064216622,-0.026843768064216622,MATCH
+Figure 2,A,corrected gap (claude-4.5-opus-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.02266529065577849,-0.02266529065577849,MATCH
+Figure 2,A,raw gap (gpt-5.2-codex),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.0088970831462315,-0.0088970831462315,MATCH
+Figure 2,A,corrected gap (gpt-5.2-codex),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.012765659485714398,-0.012765659485714398,MATCH
+Figure 2,A,raw gap (minimax-m2.5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.006801281019906069,-0.006801281019906069,MATCH
+Figure 2,A,corrected gap (minimax-m2.5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.004317142923320638,-0.004317142923320638,MATCH
+Figure 2,A,raw gap (gemini-3-flash-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.002621742161837526,-0.002621742161837526,MATCH
+Figure 2,A,corrected gap (gemini-3-flash-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-9.325153971828648e-05,-9.325153971828648e-05,MATCH
+Figure 2,A,raw gap (claude-opus-4.6),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.005816074518056991,0.005816074518056991,MATCH
+Figure 2,A,corrected gap (claude-opus-4.6),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.010322126586370994,0.010322126586370994,MATCH
+Figure 2,A,raw gap (glm-5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.012320962950432612,0.012320962950432612,MATCH
+Figure 2,A,corrected gap (glm-5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.008772816450522414,0.008772816450522414,MATCH
+Figure 2,A,raw gap (gpt-5.2-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.012806634773270376,0.012806634773270376,MATCH
+Figure 2,A,corrected gap (gpt-5.2-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.008756605422880148,0.008756605422880148,MATCH
+Figure 2,A,raw gap (claude-4.5-haiku-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.05180813868840539,0.05180813868840539,MATCH
+Figure 2,A,corrected gap (claude-4.5-haiku-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.03539643386381108,0.03539643386381108,MATCH
+Figure 2,A,raw gap (gpt-5-mini),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.1863747736240955,0.1863747736240955,MATCH
+Figure 2,A,corrected gap (gpt-5-mini),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.14233811033884336,0.14233811033884336,MATCH
+Figure 2,B,raw gap (gemini-3-flash-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.043506622314453125,-0.043506622314453125,MATCH
+Figure 2,B,corrected gap (gemini-3-flash-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.04722806703534288,-0.04722806703534288,MATCH
+Figure 2,B,raw gap (gpt-5.2-codex),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.019873435082642943,-0.019873435082642943,MATCH
+Figure 2,B,corrected gap (gpt-5.2-codex),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.015805306908378003,-0.015805306908378003,MATCH
+Figure 2,B,raw gap (claude-4.5-haiku-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.018475093624808592,-0.018475093624808592,MATCH
+Figure 2,B,corrected gap (claude-4.5-haiku-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.004259220058520641,-0.004259220058520641,MATCH
+Figure 2,B,raw gap (gpt-5-mini),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,-0.0015650666677035074,-0.0015650666677035074,MATCH
+Figure 2,B,corrected gap (gpt-5-mini),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.02247359084803513,0.02247359084803513,MATCH
+Figure 2,B,raw gap (gpt-5.2-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.03994845216338694,0.03994845216338694,MATCH
+Figure 2,B,corrected gap (gpt-5.2-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.0439708096776904,0.0439708096776904,MATCH
+Figure 2,B,raw gap (glm-5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.04171158870061242,0.04171158870061242,MATCH
+Figure 2,B,corrected gap (glm-5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.04578261932847538,0.04578261932847538,MATCH
+Figure 2,B,raw gap (minimax-m2.5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.06015623227143896,0.06015623227143896,MATCH
+Figure 2,B,corrected gap (minimax-m2.5-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.05732866070230758,0.05732866070230758,MATCH
+Figure 2,B,raw gap (claude-opus-4.6),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.11096491464754432,0.11096491464754432,MATCH
+Figure 2,B,corrected gap (claude-opus-4.6),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.10534916052471854,0.10534916052471854,MATCH
+Figure 2,B,raw gap (claude-4.5-opus-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.11492401068327862,0.11492401068327862,MATCH
+Figure 2,B,corrected gap (claude-4.5-opus-high),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.11063216919282925,0.11063216919282925,MATCH
+Figure 2,B,raw gap (gemini-3-pro),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.9582048058509827,0.9582048058509827,MATCH
+Figure 2,B,corrected gap (gemini-3-pro),outputs\paper2_w2_visual_architecture\data\figure2_plot_data.csv,0.0,0.0,MATCH
+Figure 3,A,occurrence pair-0006 (claude-4.5-haiku-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.13970622125090737,0.13970622125090737,MATCH
+Figure 3,A,occurrence pair-0106 (claude-4.5-opus-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.1321269532027739,0.1321269532027739,MATCH
+Figure 3,A,occurrence pair-0206 (claude-opus-4.6),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.13459457460989155,0.13459457460989155,MATCH
+Figure 3,A,occurrence pair-0306 (gemini-3-flash-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.1377462284504496,0.1377462284504496,MATCH
+Figure 3,A,occurrence pair-0406 (gemini-3-pro),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.11734626800166015,0.11734626800166015,MATCH
+Figure 3,A,occurrence pair-0506 (glm-5-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.14897354346827263,0.14897354346827263,MATCH
+Figure 3,A,occurrence pair-0607 (gpt-5.2-codex),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.1662715328812231,0.1662715328812231,MATCH
+Figure 3,A,occurrence pair-0608 (gpt-5.2-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.12785281104986934,0.12785281104986934,MATCH
+Figure 3,A,occurrence pair-0609 (minimax-m2.5-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.14934259457134136,0.14934259457134136,MATCH
+Figure 3,A,annotation median_signed_gap,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.1377462284504496,0.1377462284504496,MATCH
+Figure 3,A,annotation bootstrap_ci_lower,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.11681530181196477,0.11681530181196477,MATCH
+Figure 3,A,annotation bootstrap_ci_upper,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.15944975771607114,0.15944975771607114,MATCH
+Figure 3,A,annotation bootstrap_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.1380731364042609,0.1380731364042609,MATCH
+Figure 3,A,annotation jackknife_min_abs_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.13617040153017057,0.13617040153017057,MATCH
+Figure 3,A,annotation jackknife_sign_preserved_all,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,True,True,MATCH
+Figure 3,A,annotation task_half_A_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.11767970623031776,0.11767970623031776,MATCH
+Figure 3,A,annotation task_half_B_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.14894173870245364,0.14894173870245364,MATCH
+Figure 3,B,occurrence pair-0002 (claude-4.5-haiku-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.14161996504236674,0.14161996504236674,MATCH
+Figure 3,B,occurrence pair-0102 (claude-4.5-opus-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.0768836323699027,0.0768836323699027,MATCH
+Figure 3,B,occurrence pair-0204 (gemini-3-pro),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.08251333253652737,0.08251333253652737,MATCH
+Figure 3,B,occurrence pair-0205 (glm-5-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.04409941729001732,0.04409941729001732,MATCH
+Figure 3,B,occurrence pair-0206 (gpt-5-mini),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.1146098607280106,0.1146098607280106,MATCH
+Figure 3,B,occurrence pair-0207 (gpt-5.2-codex),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.11039703482593621,0.11039703482593621,MATCH
+Figure 3,B,occurrence pair-0208 (gpt-5.2-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.12702368893590055,0.12702368893590055,MATCH
+Figure 3,B,occurrence pair-0209 (minimax-m2.5-high),outputs\paper2_w2_visual_architecture\data\figure3_plot_data.csv,0.11107776761037536,0.11107776761037536,MATCH
+Figure 3,B,annotation median_signed_gap,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.11073740121815578,0.11073740121815578,MATCH
+Figure 3,B,annotation bootstrap_ci_lower,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.05100413519648092,0.05100413519648092,MATCH
+Figure 3,B,annotation bootstrap_ci_upper,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.14856491377866127,0.14856491377866127,MATCH
+Figure 3,B,annotation bootstrap_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.0970468206689453,0.0970468206689453,MATCH
+Figure 3,B,annotation jackknife_min_abs_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.11039703482593621,0.11039703482593621,MATCH
+Figure 3,B,annotation jackknife_sign_preserved_all,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,True,True,MATCH
+Figure 3,B,annotation task_half_A_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.08688594138784889,0.08688594138784889,MATCH
+Figure 3,B,annotation task_half_B_median,outputs\paper2_w2_visual_architecture\data\figure3_annotation_values.json,0.11354561216502507,0.11354561216502507,MATCH
+Figure 4,A,TARGET_1 @ 0.9: gap,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.11251243867464988,0.11251243867464988,MATCH
+Figure 4,A,TARGET_1 @ 0.9: CI lower,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.09536950734306153,0.09536950734306153,MATCH
+Figure 4,A,TARGET_1 @ 0.9: CI upper,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.12678930165704008,0.12678930165704008,MATCH
+Figure 4,A,TARGET_1 @ 0.925: gap,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.12002521064108551,0.12002521064108551,MATCH
+Figure 4,A,TARGET_1 @ 0.925: CI lower,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.10194926684304571,0.10194926684304571,MATCH
+Figure 4,A,TARGET_1 @ 0.925: CI upper,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.13653406184120295,0.13653406184120295,MATCH
+Figure 4,A,TARGET_1 @ 0.95: gap,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.1377462284504496,0.1377462284504496,MATCH
+Figure 4,A,TARGET_1 @ 0.95: CI lower,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.11754861753608932,0.11754861753608932,MATCH
+Figure 4,A,TARGET_1 @ 0.95: CI upper,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.15985351816199195,0.15985351816199195,MATCH
+Figure 4,A,TARGET_1 @ 0.975: gap,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.16983431930551485,0.16983431930551485,MATCH
+Figure 4,A,TARGET_1 @ 0.975: CI lower,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.12742532358923503,0.12742532358923503,MATCH
+Figure 4,A,TARGET_1 @ 0.975: CI upper,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.2143977896483395,0.2143977896483395,MATCH
+Figure 4,A,TARGET_2 @ 0.9: gap,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.13744058607047355,0.13744058607047355,MATCH
+Figure 4,A,TARGET_2 @ 0.9: CI lower,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.0895298488412944,0.0895298488412944,MATCH
+Figure 4,A,TARGET_2 @ 0.9: CI upper,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.16795866354586556,0.16795866354586556,MATCH
+Figure 4,A,TARGET_2 @ 0.925: gap,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.11604011179651463,0.11604011179651463,MATCH
+Figure 4,A,TARGET_2 @ 0.925: CI lower,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.08381597138000893,0.08381597138000893,MATCH
+Figure 4,A,TARGET_2 @ 0.925: CI upper,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.17070162991180246,0.17070162991180246,MATCH
+Figure 4,A,TARGET_2 @ 0.95: gap,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.1107374012181559,0.1107374012181559,MATCH
+Figure 4,A,TARGET_2 @ 0.95: CI lower,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.05104734793368174,0.05104734793368174,MATCH
+Figure 4,A,TARGET_2 @ 0.95: CI upper,outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,0.14620003871873352,0.14620003871873352,MATCH
+Figure 4,A,TARGET_2 @ 0.975: NOT EVALUABLE marker (not a gap value),outputs\paper2_w2_visual_architecture\data\figure4_threshold_data.csv,NOT_EVALUABLE,NOT_EVALUABLE,MATCH
+Figure 4,B,TARGET_1 SWE-bench: gap,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.1377462284504496,0.1377462284504496,MATCH
+Figure 4,B,TARGET_1 SWE-bench: CI,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.11754861753608932,0.11754861753608932,MATCH
+Figure 4,B,TARGET_1 SWE-bench: CI,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.15985351816199195,0.15985351816199195,MATCH
+Figure 4,B,"TARGET_1 TerminalBench: 0 decisions, gap NA (not drawn as zero)",outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,INDETERMINATE,INDETERMINATE,MATCH
+Figure 4,B,TARGET_2 SWE-bench: gap,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.1107374012181559,0.1107374012181559,MATCH
+Figure 4,B,TARGET_2 SWE-bench: CI,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.05104734793368174,0.05104734793368174,MATCH
+Figure 4,B,TARGET_2 SWE-bench: CI,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.14620003871873352,0.14620003871873352,MATCH
+Figure 4,B,TARGET_2 TerminalBench: gap,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.0619669131120315,0.0619669131120315,MATCH
+Figure 4,B,TARGET_2 TerminalBench: CI,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,-0.1093587649685867,-0.1093587649685867,MATCH
+Figure 4,B,TARGET_2 TerminalBench: CI,outputs\paper2_w2_visual_architecture\data\figure4_cross_benchmark_data.csv,0.2562775723693225,0.2562775723693225,MATCH

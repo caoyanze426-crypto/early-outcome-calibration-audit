@@ -1,0 +1,100 @@
+{
+  "task": "PAPER2_W2_FIGURE_AND_TABLE_ARCHITECTURE",
+  "figure_id": "FIGURE_3_TARGET_PERSISTENCE",
+  "source_phase": [
+    "1A",
+    "1A-D"
+  ],
+  "value_basis": "frozen declared values transcribed from Phase 1A-D analysis artifacts; nothing recomputed",
+  "common": {
+    "unit_of_analysis": "one eligible partner-fold occurrence of the target cell (partner held-out agent x common task set)",
+    "gaps_are_oracle_prior_corrected": true,
+    "bootstrap": {
+      "replicates": 5000,
+      "seed": 42031,
+      "resampling_unit": "instance_id",
+      "resampling": "common task IDs drawn with replacement with replacement per pair fold; priors and corrected scores recomputed inside each replicate",
+      "lightgbm_retrained_in_bootstrap": false
+    },
+    "min_decisions_per_occurrence": 20
+  },
+  "panels": [
+    {
+      "panel": "A",
+      "target_scope": "PRIMARY_TARGET_1",
+      "target_agent": "gpt-5-mini",
+      "head": "success",
+      "eligible_occurrences": 9,
+      "occurrence_pair_ids": [
+        "pair-0006",
+        "pair-0106",
+        "pair-0206",
+        "pair-0306",
+        "pair-0406",
+        "pair-0506",
+        "pair-0607",
+        "pair-0608",
+        "pair-0609"
+      ],
+      "median_signed_corrected_gap": 0.1377462284504496,
+      "annotation_values": {
+        "median_signed_gap": 0.1377462284504496,
+        "bootstrap_ci_lower": 0.11681530181196477,
+        "bootstrap_ci_upper": 0.15944975771607114,
+        "bootstrap_median": 0.1380731364042609,
+        "jackknife_min_abs_median": 0.13617040153017057,
+        "jackknife_min_abs_median_pair_ids": [
+          "pair-0006",
+          "pair-0506",
+          "pair-0607",
+          "pair-0609"
+        ],
+        "jackknife_sign_preserved_all": true,
+        "task_half_A_median": 0.11767970623031776,
+        "task_half_B_median": 0.14894173870245364
+      },
+      "per_occurrence_values_basis": {
+        "n_decisions_min": 177,
+        "n_decisions_max": 269
+      }
+    },
+    {
+      "panel": "B",
+      "target_scope": "PRIMARY_TARGET_2",
+      "target_agent": "claude-opus-4.6",
+      "head": "failure",
+      "eligible_occurrences": 8,
+      "occurrence_pair_ids": [
+        "pair-0002",
+        "pair-0102",
+        "pair-0204",
+        "pair-0205",
+        "pair-0206",
+        "pair-0207",
+        "pair-0208",
+        "pair-0209"
+      ],
+      "median_signed_corrected_gap": 0.11073740121815578,
+      "annotation_values": {
+        "median_signed_gap": 0.11073740121815578,
+        "bootstrap_ci_lower": 0.05100413519648092,
+        "bootstrap_ci_upper": 0.14856491377866127,
+        "bootstrap_median": 0.0970468206689453,
+        "jackknife_min_abs_median": 0.11039703482593621,
+        "jackknife_min_abs_median_pair_ids": [
+          "pair-0002",
+          "pair-0206",
+          "pair-0208",
+          "pair-0209"
+        ],
+        "jackknife_sign_preserved_all": true,
+        "task_half_A_median": 0.08688594138784889,
+        "task_half_B_median": 0.11354561216502507
+      },
+      "per_occurrence_values_basis": {
+        "n_decisions_min": 25,
+        "n_decisions_max": 40
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "definition": {
+    "universe": "models that are not prior-degenerate, with a defined denominator > 0 in that head",
+    "correction": "oracle label-prior correction; coefficient held at its frozen point value"
+  },
+  "heads": {
+    "success": {
+      "raw_range": 0.2132185416883121,
+      "residual_range": 0.16500340099462185,
+      "range_absorbed_by_correction": 0.22613014943218346,
+      "max_absolute_raw_gap": 0.1863747736240955,
+      "max_absolute_residual_gap": 0.14233811033884336,
+      "per_model_raw_gap": {
+        "claude-4.5-haiku-high": 0.05180813868840539,
+        "claude-4.5-opus-high": -0.026843768064216622,
+        "claude-opus-4.6": 0.005816074518056991,
+        "gemini-3-flash-high": -0.002621742161837526,
+        "glm-5-high": 0.012320962950432612,
+        "gpt-5-mini": 0.1863747736240955,
+        "gpt-5.2-codex": -0.0088970831462315,
+        "gpt-5.2-high": 0.012806634773270376,
+        "minimax-m2.5-high": -0.006801281019906069
+      },
+      "per_model_residual_gap": {
+        "claude-4.5-haiku-high": 0.03539643386381108,
+        "claude-4.5-opus-high": -0.02266529065577849,
+        "claude-opus-4.6": 0.010322126586370994,
+        "gemini-3-flash-high": -9.325153971828648e-05,
+        "glm-5-high": 0.008772816450522414,
+        "gpt-5-mini": 0.14233811033884336,
+        "gpt-5.2-codex": -0.012765659485714398,
+        "gpt-5.2-high": 0.008756605422880148,
+        "minimax-m2.5-high": -0.004317142923320638
+      }
+    },
+    "failure": {
+      "raw_range": 0.15843063299773175,
+      "residual_range": 0.15786023622817213,
+      "range_absorbed_by_correction": 0.0036002934455723334,
+      "max_absolute_raw_gap": 0.11492401068327862,
+      "max_absolute_residual_gap": 0.11063216919282925,
+      "per_model_raw_gap": {
+        "claude-4.5-haiku-high": -0.018475093624808592,
+        "claude-4.5-opus-high": 0.11492401068327862,
+        "claude-opus-4.6": 0.11096491464754432,
+        "gemini-3-flash-high": -0.043506622314453125,
+        "glm-5-high": 0.04171158870061242,
+        "gpt-5-mini": -0.0015650666677035074,
+        "gpt-5.2-codex": -0.019873435082642943,
+        "gpt-5.2-high": 0.03994845216338694,
+        "minimax-m2.5-high": 0.06015623227143896
+      },
+      "per_model_residual_gap": {
+        "claude-4.5-haiku-high": -0.004259220058520641,
+        "claude-4.5-opus-high": 0.11063216919282925,
+        "claude-opus-4.6": 0.10534916052471854,
+        "gemini-3-flash-high": -0.04722806703534288,
+        "glm-5-high": 0.04578261932847538,
+        "gpt-5-mini": 0.02247359084803513,
+        "gpt-5.2-codex": -0.015805306908378003,
+        "gpt-5.2-high": 0.0439708096776904,
+        "minimax-m2.5-high": 0.05732866070230758
+      }
+    }
+  }
+}

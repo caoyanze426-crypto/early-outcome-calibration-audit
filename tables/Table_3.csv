@@ -1,0 +1,15 @@
+section,row_key,description,value,status_or_source
+A,fixed_scaffold_models,terminus-2 eligible models,29,PHASE2B_REPORT.md; analysis/eligible_models.json
+A,lomo_folds,leave-one-model-out folds completed,29/29,PHASE2B_REPORT.md
+A,usable_trajectories,trajectories in the frozen Phase 2B analysis,15889,PHASE2B_REPORT.md
+A,decided_trajectories_at_0.950,decided rows of 15889,3784,PHASE2B_D_REPORT.md
+A,decision_coverage_at_0.950,3784 / 15889,0.2382,PHASE2B_D_REPORT.md
+A,success_head_eligible_targets_at_0.950,"median |gap| = 0.0154, max = 0.0154",1,analysis/target_signal.json
+A,failure_head_eligible_targets,"median |gap| = 0.0102, max = 0.1062, range = 0.1831",27,analysis/target_signal.json
+A,robust_large_gap_rows,"gemini-3-pro-preview@gemini failure gap -0.1062 CI [-0.1144, -0.0986]",1,analysis/robust_targets.csv
+A,phase2b_result,TERMINAL_TARGET_SPECIFIC_SIGNAL = False,NO_CROSS_BENCHMARK_SIGNAL,analysis/phase2b_gate.json
+A,phase2bd_result,THRESHOLD_SIGNAL 1 of 3 (0.900 True),NO_CROSS_BENCHMARK_REPLICATION,analysis/diagnostic_gate.json
+B,TARGET_1,SWE-bench gpt-5-mini,1860 decisions,0.1377462284504496,PERSISTENT_ON_SWE_BENCH
+B,TARGET_1,TerminalBench gpt-5-mini@openai,0 decisions,NA,INDETERMINATE
+B,TARGET_2,SWE-bench claude-opus-4.6,289 decisions,0.1107374012181559,PERSISTENT_ON_SWE_BENCH
+B,TARGET_2,TerminalBench claude-opus-4-6@anthropic,45 decisions,0.0619669131120315,NOT_PERSISTENT;UNCLASSIFIED_BY_SPEC_AT_0.950

@@ -1,0 +1,162 @@
+{
+  "targets_frozen_before_analysis": [
+    {
+      "agent_model": "gpt-5-mini",
+      "head": "success",
+      "scope": "PRIMARY_TARGET_1"
+    },
+    {
+      "agent_model": "claude-opus-4.6",
+      "head": "failure",
+      "scope": "PRIMARY_TARGET_2"
+    }
+  ],
+  "sensitivity_only": {
+    "agent_model": "minimax-m2.5-high",
+    "head": "failure",
+    "scope": "SENSITIVITY_ONLY"
+  },
+  "thresholds": {
+    "pair_min_decisions": 20,
+    "half_min_decisions": 10,
+    "half_min_eligible_folds": 5,
+    "target_min_occurrences": 7,
+    "target_median_abs_gap_min": 0.08,
+    "target_same_sign_fraction_min": 0.8,
+    "jackknife_min_abs_median_min": 0.06,
+    "half_min_abs_median_min": 0.06,
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 42031
+  },
+  "gates": {
+    "PRIMARY_TARGET_1": {
+      "scope": "PRIMARY_TARGET_1",
+      "agent_model": "gpt-5-mini",
+      "head": "success",
+      "baseline_sign": 1,
+      "criteria": {
+        "A_eligible_occurrences": {
+          "value": 9,
+          "required": 7,
+          "passed": true
+        },
+        "B_baseline_median_abs_gap": {
+          "value": 0.1377462284504496,
+          "required": 0.08,
+          "passed": true
+        },
+        "C_baseline_same_sign_fraction": {
+          "value": 1.0,
+          "required": 0.8,
+          "passed": true
+        },
+        "D_bootstrap_ci_excludes_zero_and_retains_sign": {
+          "ci_lower": 0.11681530181196477,
+          "ci_upper": 0.15944975771607114,
+          "baseline_sign": 1,
+          "excludes_zero": true,
+          "retains_sign": true,
+          "passed": true
+        },
+        "E_jackknife_sign_preserved_all_folds": {
+          "value": true,
+          "passed": true
+        },
+        "F_jackknife_min_abs_median": {
+          "value": 0.13617040153017057,
+          "required": 0.06,
+          "passed": true
+        },
+        "G_TASK_HALF_A": {
+          "eligible_folds": 9,
+          "eligible_folds_required": 5,
+          "median_signed_gap": 0.11767970623031776,
+          "sign_retained": true,
+          "abs_magnitude_required": 0.06,
+          "passed": true
+        },
+        "H_TASK_HALF_B": {
+          "eligible_folds": 9,
+          "eligible_folds_required": 5,
+          "median_signed_gap": 0.14894173870245364,
+          "sign_retained": true,
+          "abs_magnitude_required": 0.06,
+          "passed": true
+        }
+      },
+      "TARGET_ROBUST": true
+    },
+    "PRIMARY_TARGET_2": {
+      "scope": "PRIMARY_TARGET_2",
+      "agent_model": "claude-opus-4.6",
+      "head": "failure",
+      "baseline_sign": 1,
+      "criteria": {
+        "A_eligible_occurrences": {
+          "value": 8,
+          "required": 7,
+          "passed": true
+        },
+        "B_baseline_median_abs_gap": {
+          "value": 0.11073740121815578,
+          "required": 0.08,
+          "passed": true
+        },
+        "C_baseline_same_sign_fraction": {
+          "value": 1.0,
+          "required": 0.8,
+          "passed": true
+        },
+        "D_bootstrap_ci_excludes_zero_and_retains_sign": {
+          "ci_lower": 0.05100413519648092,
+          "ci_upper": 0.14856491377866127,
+          "baseline_sign": 1,
+          "excludes_zero": true,
+          "retains_sign": true,
+          "passed": true
+        },
+        "E_jackknife_sign_preserved_all_folds": {
+          "value": true,
+          "passed": true
+        },
+        "F_jackknife_min_abs_median": {
+          "value": 0.11039703482593621,
+          "required": 0.06,
+          "passed": true
+        },
+        "G_TASK_HALF_A": {
+          "eligible_folds": 8,
+          "eligible_folds_required": 5,
+          "median_signed_gap": 0.08688594138784889,
+          "sign_retained": true,
+          "abs_magnitude_required": 0.06,
+          "passed": true
+        },
+        "H_TASK_HALF_B": {
+          "eligible_folds": 8,
+          "eligible_folds_required": 5,
+          "median_signed_gap": 0.11354561216502507,
+          "sign_retained": true,
+          "abs_magnitude_required": 0.06,
+          "passed": true
+        }
+      },
+      "TARGET_ROBUST": true
+    }
+  },
+  "overall": {
+    "TARGET_1_ROBUST": true,
+    "TARGET_2_ROBUST": true,
+    "PHASE1A_D_RESULT": "STRONG_TARGET_SPECIFIC_SIGNAL",
+    "rule": "STRONG if both, SINGLE if exactly one, NO_ROBUST if neither",
+    "sensitivity_only_target_excluded_from_gate": "SENSITIVITY_ONLY"
+  },
+  "input_hashes_match": true,
+  "recomputed_values_match_phase1a": true,
+  "predictor_training": 0,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "new_trajectories": 0,
+  "threshold_sweep": 0,
+  "method_design": 0
+}

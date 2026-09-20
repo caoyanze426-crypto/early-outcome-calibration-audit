@@ -1,0 +1,21 @@
+model_id,head,raw_gap_phase0d,corrected_gap_phase0e,decisions_phase0d,decisions_phase0e,denominator_ge_20_phase0d,large_gap_ge_010_phase0d,prior_degenerate,boundary_valued_correction,log_odds_ratio_success_head,frozen_primary_target,notes
+claude-4.5-haiku-high,success,0.05180813868840539,0.03539643386381108,300,300,True,False,False,False,-0.43869185907287434,FALSE,
+claude-4.5-opus-high,success,-0.026843768064216622,-0.02266529065577849,223,223,True,False,False,False,0.12880349600411778,FALSE,
+claude-opus-4.6,success,0.005816074518056991,0.010322126586370994,208,208,True,False,False,False,0.1537295024839771,FALSE,
+gemini-3-flash-high,success,-0.002621742161837526,-9.325153971828648e-05,275,275,True,False,False,False,0.08605174641246749,FALSE,
+gemini-3-pro,success,-0.03549391031265259,0.0,258,258,True,False,True,True,inf,FALSE,PRIOR_DEGENERATE: held-out success prior is 0 or 1; oracle odds ratio is inf; corrected probabilities sit on the boundary
+glm-5-high,success,0.012320962950432612,0.008772816450522414,289,289,True,False,False,False,-0.10729341376641299,FALSE,
+gpt-5-mini,success,0.1863747736240955,0.14233811033884336,235,235,True,True,False,False,-0.9433337616314649,TRUE,frozen primary target (highlighted)
+gpt-5.2-codex,success,-0.0088970831462315,-0.012765659485714398,224,224,True,False,False,False,-0.10729341376641299,FALSE,
+gpt-5.2-high,success,0.012806634773270376,0.008756605422880148,239,239,True,False,False,False,-0.10729341376641299,FALSE,
+minimax-m2.5-high,success,-0.006801281019906069,-0.004317142923320638,214,214,True,False,False,False,0.0676364417337263,FALSE,
+claude-4.5-haiku-high,failure,-0.018475093624808592,-0.004259220058520641,44,44,True,False,False,False,-0.43869185907287434,FALSE,
+claude-4.5-opus-high,failure,0.11492401068327862,0.11063216919282925,61,61,True,True,False,False,0.12880349600411778,FALSE,
+claude-opus-4.6,failure,0.11096491464754432,0.10534916052471854,41,41,True,True,False,False,0.1537295024839771,TRUE,frozen primary target (highlighted)
+gemini-3-flash-high,failure,-0.043506622314453125,-0.04722806703534288,14,14,False,False,False,False,0.08605174641246749,FALSE,
+gemini-3-pro,failure,0.9582048058509827,0.0,25,25,True,True,True,True,inf,FALSE,PRIOR_DEGENERATE: held-out success prior is 0 or 1; oracle odds ratio is inf; corrected probabilities sit on the boundary
+glm-5-high,failure,0.04171158870061242,0.04578261932847538,24,24,True,False,False,False,-0.10729341376641299,FALSE,
+gpt-5-mini,failure,-0.0015650666677035074,0.02247359084803513,26,26,True,False,False,False,-0.9433337616314649,FALSE,
+gpt-5.2-codex,failure,-0.019873435082642943,-0.015805306908378003,46,46,True,False,False,False,-0.10729341376641299,FALSE,
+gpt-5.2-high,failure,0.03994845216338694,0.0439708096776904,37,37,True,False,False,False,-0.10729341376641299,FALSE,
+minimax-m2.5-high,failure,0.06015623227143896,0.05732866070230758,39,39,True,False,False,False,0.0676364417337263,FALSE,

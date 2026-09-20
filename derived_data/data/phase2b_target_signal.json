@@ -1,0 +1,68 @@
+{
+  "section": "15 TARGET-SPECIFIC SIGNAL",
+  "thresholds": {
+    "MIN_DECISIONS": 20
+  },
+  "per_head": {
+    "success": {
+      "head": "success",
+      "eligible_targets": 1,
+      "eligibility": "decisions >= 20 and non-degenerate target prior",
+      "median_abs_corrected_gap": 0.015356558060857672,
+      "max_abs_corrected_gap": 0.015356558060857672,
+      "residual_gap_range": 0.0,
+      "signed_corrected_gap_min": -0.015356558060857672,
+      "signed_corrected_gap_max": -0.015356558060857672,
+      "n_abs_gap_ge_0_05": 0,
+      "n_abs_gap_ge_0_08": 0,
+      "n_abs_gap_ge_0_10": 0,
+      "per_target_abs_gap": {
+        "glm-5@z-ai": 0.015356558060857672
+      },
+      "q4_label": "SUCCESS"
+    },
+    "failure": {
+      "head": "failure",
+      "eligible_targets": 27,
+      "eligibility": "decisions >= 20 and non-degenerate target prior",
+      "median_abs_corrected_gap": 0.010169411272034523,
+      "max_abs_corrected_gap": 0.10622394638739696,
+      "residual_gap_range": 0.18312825794556553,
+      "signed_corrected_gap_min": -0.10622394638739696,
+      "signed_corrected_gap_max": 0.07690431155816857,
+      "n_abs_gap_ge_0_05": 7,
+      "n_abs_gap_ge_0_08": 1,
+      "n_abs_gap_ge_0_10": 1,
+      "per_target_abs_gap": {
+        "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8@together_ai": 0.006115563198160534,
+        "accounts/fireworks/models/glm-4p6@fireworks_ai": 0.007961178935176894,
+        "accounts/fireworks/models/minimax-m2@fireworks_ai": 0.02356328144719244,
+        "claude-haiku-4-5-20251001@anthropic": 0.019550235447191366,
+        "claude-opus-4-1-20250805@anthropic": 0.010169411272034523,
+        "claude-opus-4-5-20251101@anthropic": 0.061238347091914114,
+        "claude-opus-4-6@anthropic": 0.06196691311203151,
+        "claude-sonnet-4-5-20250929@anthropic": 0.0067434662429510794,
+        "deepseek-v3.2@deepseek": 0.03554425654632021,
+        "gemini-2.5-flash@gemini": 0.0022746356851878202,
+        "gemini-2.5-pro@gemini": 0.008020963457104013,
+        "gemini-3-flash-preview@gemini": 0.050479055410443174,
+        "gemini-3-pro-preview@gemini": 0.10622394638739696,
+        "glm-5@z-ai": 0.04452661004604519,
+        "gpt-5-codex@openai": 0.07690431155816857,
+        "gpt-5-mini@openai": 0.007813073931643655,
+        "gpt-5-nano@openai": 0.0021128913469178334,
+        "gpt-5.1-codex@openai": 0.05384657258551284,
+        "gpt-5@openai": 0.0020420083338590356,
+        "grok-4-0709@xai": 0.03532419453802349,
+        "grok-code-fast-1@xai": 0.008837345970026167,
+        "minimax-m2.1@openai": 0.03689665539044462,
+        "minimax-m2.5@Minimax": 0.05604614418305709,
+        "moonshotai/Kimi-K2-Instruct-0905@together_ai": 0.002343799815529124,
+        "moonshotai/Kimi-K2-Thinking@together_ai": 0.009202463199426192,
+        "openai/gpt-oss-120b@together_ai": 0.005962762278408307,
+        "openai/gpt-oss-20b@together_ai": 0.002187603266963656
+      },
+      "q4_label": "FAILURE"
+    }
+  }
+}
