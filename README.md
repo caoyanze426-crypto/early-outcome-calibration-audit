@@ -2,8 +2,8 @@
 
 This repository accompanies the manuscript *Testing-Driven Reliability Audit
 of Trajectory-Based Early Outcome Prediction for LLM Agents: Target-Specific
-Calibration Transfer Persists Within a Single Benchmark* (submission target:
-Expert Systems with Applications).
+Calibration Transfer Error Persists Within a Single Benchmark* (submission target:
+Empirical Software Engineering).
 
 The study re-analyzes two third-party public trajectory corpora and reports a
 frozen reliability audit: a leave-one-agent-out calibration audit, a
@@ -80,6 +80,6 @@ workspace and what each phase contains, and
 
     Cao, YanZe (2026). Testing-Driven Reliability Audit of Trajectory-Based
     Early Outcome Prediction for LLM Agents: Target-Specific Calibration
-    Transfer Persists Within a Single Benchmark. Manuscript under submission;
+    Transfer Error Persists Within a Single Benchmark. Manuscript under submission;
     derived artifacts deposited at
     https://github.com/caoyanze426-crypto/early-outcome-calibration-audit.
